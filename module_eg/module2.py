@@ -1,5 +1,3 @@
-from sakshi_math import NAMES, add, DISTS
+import module1
 
-print(add(3, 4))
-print(NAMES)
-print(DISTS['ages'])
+print(module1.add(4, 5))
