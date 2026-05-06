@@ -1,5 +1,3 @@
-
-
 # my_list = []
 
 # user_input = input("enter numbers separated by spaces: ")
