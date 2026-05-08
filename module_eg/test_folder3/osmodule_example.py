@@ -85,4 +85,4 @@ FILE_PATH = '/home/sakshi/Documents/python-concepts/module_eg/test_folder/sakshi
 # shutil.move('/home/sakshi/Documents/python-concepts/module_eg/module2.py', '/home/sakshi/Documents/python-concepts/module_eg/test_folder1')
 
 
-shutil.move('/home/sakshi/Documents/python-concepts/module_eg/osmodule_example.py','/home/sakshi/Documents/python-concepts/module_eg/test_folder3')
+# shutil.move('/home/sakshi/Documents/python-concepts/module_eg/osmodule_example.py','/home/sakshi/Documents/python-concepts/module_eg/test_folder3')
