@@ -86,3 +86,21 @@ FILE_PATH = '/home/sakshi/Documents/python-concepts/module_eg/test_folder/sakshi
 
 
 # shutil.move('/home/sakshi/Documents/python-concepts/module_eg/osmodule_example.py','/home/sakshi/Documents/python-concepts/module_eg/test_folder3')
+
+
+
+# rmtree() is used to remove all the contents inside the folder and the delete the folder also
+# shutil.rmtree('test_folder2')
+
+
+# remove the empty folder
+# os.rmdir('test_folder3')
+
+
+
+
+
+
+
+# this files handles all the operation such as creating files or folders in this directory 
+# I cannot keeping this file into a sub-folder because it is not able to perform the manipulation operation on another files whic are locating in another folder
