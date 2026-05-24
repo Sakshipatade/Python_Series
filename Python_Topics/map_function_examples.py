@@ -27,17 +27,18 @@ countries = ['india', 'china', 'japan', 'america', 'finland', 'netherland','russ
 
 
 # Use filter to filter out countries containing 'land'.
-# for name in countries:
-#     if name.endswith('d'):
-#         print(name)
 
 # def containsLand(name):
-#     if name.endswith('d'):
+#     if 'land' in name:
 #         return name
+
+# OR
+# result = filter(lambda name:'land' in name, countries)
+# print(list(result))
 
 # result = filter(containsLand, countries)
 # print(list(result))
-
+# both solution printing 
 
 
 
