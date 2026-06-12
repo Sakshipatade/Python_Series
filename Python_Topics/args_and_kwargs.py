@@ -10,26 +10,21 @@
 
 
 # Find Maximum from passed arguments
+def find_max(*nums):
+    return max(nums)
+    # max = nums[0]
 
-# def findMax(*nums):
-#     for i in nums:
+    # for i in range(len(nums)):
+    #     if nums[1] > max:
+    #         max = nums[1]
+    #         return max
 
-# findMax(3,4,5,6,7)
+print(find_max(1,12,2323,423,500))
 
 
 
 
 
-nums:list[int] = [4,5,6,7,8,9]
-# nums.sort(reverse=True)
-# print(nums[0])  <-Either this will be the logic i used to find out the largest number from the list
-
-for i in nums:
-    for j in nums:
-        if j>i:
-            temp = j
-            j = i
-            i = temp
         
     
 
