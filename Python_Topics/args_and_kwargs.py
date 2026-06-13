@@ -11,13 +11,12 @@
 
 # Find Maximum from passed arguments
 def find_max(*nums):
-    return max(nums)
-    # max = nums[0]
 
-    # for i in range(len(nums)):
-    #     if nums[1] > max:
-    #         max = nums[1]
-    #         return max
+
+    return max(nums)
+
+    # new = sorted(nums, reverse=True)
+    # return new[0]
 
 print(find_max(1,12,2323,423,500))
 
