@@ -14,7 +14,7 @@ now = datetime.now()
 date = now.strftime('%D')
 print(date)
 
-time = now.strftime(f'{"%H"} vajun {"%M"} minute zale aahe.. how funny')
+time = now.strftime(f'{"%I"} vajun {"%M"} minute zale aahe.. how funny')
 print(time)
 
 
