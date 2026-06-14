@@ -1,6 +1,6 @@
 #for comnining two lists we can make use of:
-lst_one = ['table', 'jug', 'box']
-lst_two = ['bottle', 'shoes', 'pencil']
+# lst_one = ['table', 'jug', 'box']
+# lst_two = ['bottle', 'shoes', 'pencil']
 
 
 
@@ -36,3 +36,11 @@ lst_two = ['bottle', 'shoes', 'pencil']
 # use of list comprehension
 # lst_three = [i for lst in (lst_one, lst_two) for i in lst]
 # print(lst_three)
+
+
+
+names = ['Finland', 'Sweden', 'Norway','Denmark','Iceland', 'Estonia','Russia']
+*nordic_countries, es, ru = names 
+print(nordic_countries)
+print(es)
+print(ru)
