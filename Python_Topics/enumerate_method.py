@@ -1,37 +1,42 @@
 # syntax: enumerate(iterable, start=0) 0 is by default index we can change it by changing the start number as per our own
 
-# colors = ['red', 'green', 'blue']
-# for index, color in enumerate(colors):
-#     print(index, color)
+colors = ['red', 'green', 'blue']
+for index, color in enumerate(colors):
+    print(index, color)
 
 
 
-# students = ('amit', 'priya', 'rahul', 'reena', 'lekha', 'nandini', 'jitesh', 'shamini')
-# for index, student in enumerate(students, start = 1):
-#     print(f'{index}. {student}')
-
-
-
-
-# try:
-#     fruits = ["apple", "banana", "mango", "orange"]
-#     for index, fruit in enumerate(fruits):
-#         print(fruits[5])
-# except IndexError:
-#     print('index is out of range')
+students = ('amit', 'priya', 'rahul', 'reena', 'lekha', 'nandini', 'jitesh', 'shamini')
+for index, student in enumerate(students, start = 1):
+    print(f'{index}. {student}')
 
 
 
 
-# numbers = [10, 20, 30, 40, 50, 60]
-# for index, num in enumerate(numbers):
-#     if index % 2 == 0:
-#         print(f'{index} {num}')
+try:
+    fruits = ["apple", "banana", "mango", "orange"]
+    for index, fruit in enumerate(fruits):
+        print(fruits[5])
+except IndexError:
+    print('index is out of range')
 
 
-# word = 'python'
-# for i, char in enumerate(word):
-#     print(i, char)
+
+
+numbers = [10, 20, 30, 40, 50, 60]
+for index, num in enumerate(numbers):
+    if index % 2 == 0:
+        print(f'{index} {num}')
+
+
+
+
+
+
+word = 'python'
+for i, char in enumerate(word):
+    print(i, char)
+
 
 
 
@@ -39,10 +44,10 @@
 subjects = ["Math", "Science", "English"]
 
 
-# dictionary = {}
-# for i, sub in enumerate(subjects):
-#     dictionary[i] = sub
-# print(dictionary)
+dictionary = {}
+for i, sub in enumerate(subjects):
+    dictionary[i] = sub
+print(dictionary)
 
 
 # OR dictionary comprehension

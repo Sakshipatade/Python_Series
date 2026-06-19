@@ -1,12 +1,12 @@
 from datetime import datetime
 
 now = datetime.now()
-# day = now.day
-# date = now.date()
-# current_timestamp = now.timestamp()
-# print(current_timestamp)
-# print(day)
-# print(date)
+day = now.day
+date = now.date()
+current_timestamp = now.timestamp()
+print(current_timestamp)
+print(day)
+print(date)
 
 
 

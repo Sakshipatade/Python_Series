@@ -25,19 +25,19 @@ student = {
 }
 
 
-# print(len(student))
+print(len(student))
 
-# print(type(student.get('skills')))
+print(type(student.get('skills')))
 
-# student['skills'].extend(['React', 'Kotlin'])
-# print(student['skills'])
+student['skills'].extend(['React', 'Kotlin'])
+print(student['skills'])
 
-# print(student.keys())
-# print(student.values())
-# dict_values = student.values()
-# print(dict_values)
+print(student.keys())
+print(student.values())
+dict_values = student.values()
+print(dict_values)
 
-# print(student.items())
+print(student.items())
 student.pop('is_married')
 # print(student)
 

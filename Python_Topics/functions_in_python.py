@@ -1,120 +1,120 @@
-# def my_function():
-#     first_name = "sakshi"
-#     last_name = 'patade'
-#     space = ' '
-#     full_name = first_name + space + last_name
-#     return full_name
+def my_function():
+    first_name = "sakshi"
+    last_name = 'patade'
+    space = ' '
+    full_name = first_name + space + last_name
+    return full_name
 
 
-# print(my_function())
-
-
-# ==============================================================================================
-# def my_name(f_name, l_name):
-#     space = ' '
-#     full_name = f_name + space + l_name
-#     return full_name
-
-
-# print(my_name(l_name = 'patade', f_name = 'sakshi'))
+print(my_function())
 
 
 # ==============================================================================================
-# def is_number_even(num):
-#     if num % 2 == 0:
-#         return True
-#     return False
+def my_name(f_name, l_name):
+    space = ' '
+    full_name = f_name + space + l_name
+    return full_name
 
 
-# print(is_number_even(3))
-# print(is_number_even(10))
-
-
-# ==============================================================================================
-# def return_name(name = 'medialoop user'):
-#     space = ' '
-#     message = name + space + 'welcome dear!'
-#     return message
-
-
-# print(return_name())
-# # print(return_name('vaishu'))
+print(my_name(l_name = 'patade', f_name = 'sakshi'))
 
 
 # ==============================================================================================
-# def func(lst=[]):
-#     lst.append(1)
-#     return lst
-
-# print(func())
-# print(func())
-# print(func())
+def is_number_even(num):
+    if num % 2 == 0:
+        return True
+    return False
 
 
-# ==============================================================================================
-# def func(lst=[]):
-#     lst = lst + [1]
-#     return lst
-
-# print(func())
-# print(func())
-# print(func())
+print(is_number_even(3))
+print(is_number_even(10))
 
 
 # ==============================================================================================
-# def add_user(user, users= None):
-#     if users is None:
-#         users = []
-#     users.append(user)
-#     return users
+def return_name(name = 'medialoop user'):
+    space = ' '
+    message = name + space + 'welcome dear!'
+    return message
 
 
-# print(add_user('sakshi'))
-# print(add_user('vaihsu'))
-# print(add_user('meira'))
-# print(add_user('rita'))
+print(return_name())
+# print(return_name('vaishu'))
 
 
 # ==============================================================================================
-# def func(a, b=5, c=10):
-#     return a + b * c
+def func(lst=[]):
+    lst.append(1)
+    return lst
 
-# print(func(2))
-# print(func(2, 3))
-# print(func(2, 3, 4))
-# print(func(2, c=3))
-
-
-# ==============================================================================================
-# def func(a, b=[], c=10):
-#     b.append(a)
-#     return b, c
-
-# print(func(1))
-# print(func(2))
-# print(func(3, [100]))
+print(func())
+print(func())
+print(func())
 
 
 # ==============================================================================================
-# def func(lst=[]):
-#     lst.append(1)
-#     return lst
+def func(lst=[]):
+    lst = lst + [1]
+    return lst
 
-# print(func())
-# print(func())
-# print(func())
+print(func())
+print(func())
+print(func())
 
 
 # ==============================================================================================
-# def func(lst=None):
-#     if lst is None:
-#         lst = []
-#     lst.append(1)
-#     return lst
+def add_user(user, users= None):
+    if users is None:
+        users = []
+    users.append(user)
+    return users
 
 
-# print(func([10]))
-# print(func())
+print(add_user('sakshi'))
+print(add_user('vaihsu'))
+print(add_user('meira'))
+print(add_user('rita'))
+
+
+# ==============================================================================================
+def func(a, b=5, c=10):
+    return a + b * c
+
+print(func(2))
+print(func(2, 3))
+print(func(2, 3, 4))
+print(func(2, c=3))
+
+
+# ==============================================================================================
+def func(a, b=[], c=10):
+    b.append(a)
+    return b, c
+
+print(func(1))
+print(func(2))
+print(func(3, [100]))
+
+
+# ==============================================================================================
+def func(lst=[]):
+    lst.append(1)
+    return lst
+
+print(func())
+print(func())
+print(func())
+
+
+# ==============================================================================================
+def func(lst=None):
+    if lst is None:
+        lst = []
+    lst.append(1)
+    return lst
+
+
+print(func([10]))
+print(func())
 
 # ==============================================================================================
 # def my_team(team, *names_of_players):
