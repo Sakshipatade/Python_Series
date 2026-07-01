@@ -4,7 +4,7 @@ class Car:
         self.model = model
 
     def carInfo(self):
-        print(f'brand is {self.brand} and model is {self.model}')
+        return f'brand is {self.brand} and model is {self.model}'
 
 
 tigor: Car = Car('Tigor', '2023')
