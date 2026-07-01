@@ -1,3 +1,8 @@
+'''
+See the example below carefully and read comment given in the example.
+'''
+
+
 class Computer:
     def __init__(self, maxPrice):
         self.__maxPrice = maxPrice
