@@ -8,8 +8,9 @@ class Car:
     
 
     @staticmethod
-    def getCarInfo():
-        return 'Car is good for transportation.'
+    # added the fuel_type parameter to check it still works or not. u can remove it.
+    def getCarInfo(fuel_type):
+        return f'fuel type is {fuel_type}' 
     
 class ElectricCar(Car):
     def __init__(self, brand, year, batter_size):
@@ -18,19 +19,19 @@ class ElectricCar(Car):
 
 # 1. method is called using main class name
 Car('suzuki', 2023)
-print(Car.getCarInfo())
+print(Car.getCarInfo('diesel'))
 
 # 2. method is called using object of main class
 car = Car('suzuki', 2023)
-print(car.getCarInfo())
+print(car.getCarInfo('diesel'))
 
 # 3. method is called using child class name
 ElectricCar('tesla', 2025, '60kWH')
-print(ElectricCar.getCarInfo())
+print(ElectricCar.getCarInfo('electric charge'))
 
 # 4. method is called using object of child class
 electric = ElectricCar('tesla', 2025, '80kWH')
-print(electric.getCarInfo())
+print(electric.getCarInfo('electric charge'))
 
 
 '''
