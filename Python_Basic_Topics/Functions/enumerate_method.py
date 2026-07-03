@@ -12,7 +12,6 @@ for index, student in enumerate(students, start = 1):
 
 
 
-
 try:
     fruits = ["apple", "banana", "mango", "orange"]
     for index, fruit in enumerate(fruits):
@@ -22,14 +21,10 @@ except IndexError:
 
 
 
-
 numbers = [10, 20, 30, 40, 50, 60]
 for index, num in enumerate(numbers):
     if index % 2 == 0:
         print(f'{index} {num}')
-
-
-
 
 
 

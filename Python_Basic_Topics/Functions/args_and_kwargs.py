@@ -7,8 +7,6 @@
 
 
 
-
-
 # Find Maximum from passed arguments
 def find_max(*nums):
 
