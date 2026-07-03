@@ -8,17 +8,12 @@ say_hello("sakshi")
 
 
 
-
-
 def add(num1=0, num2=0):
     result = num1 + num2
     return result
 
 
 print(add(3, 2))
-
-
-
 
 
 
@@ -33,14 +28,12 @@ print(sub(3, 4))
 
 
 
-
 def mul(num1, num2):
     result = num1 * num2
     return result
 
 
 print(mul(4, 2))
-
 
 
 
