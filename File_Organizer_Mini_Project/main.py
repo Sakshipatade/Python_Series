@@ -1,4 +1,4 @@
-# below is the basic file organizer project
+# below is the basic file organizer project created using os and shutil modules in python
 
 import os 
 import shutil
