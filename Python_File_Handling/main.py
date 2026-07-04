@@ -1,10 +1,10 @@
-file_location = '/home/sakshi/Documents/python-concepts/Python_Topics/Python_File_Handling/example.txt'
+file_location = '/home/sakshi/Documents/python-concepts/Python_File_Handling/main.txt'
 
 f = open(file_location)
 # output = f.readline()            # type => <class 'str'>
 # output = f. read(10)             # type => <class 'str'>
-output = f. readlines(10)          # type => <class 'list'>
-print(output)
+# output = f. readlines(10)          # type => <class 'list'>
+# print(output)
 # print(type(output))
 
 
@@ -18,4 +18,5 @@ with open(file_location) as f:
 with open(file_location, 'a') as file:
     # file.write('this is the first paragraph')
     file.write('this is the second paragraph')
+  
 
