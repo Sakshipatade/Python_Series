@@ -4,7 +4,7 @@
 # print(string.digits)
 # print(string.punctuation)
 
-
+# =====================================================================
 
 # import statistics
 # score = [40, 50, 100, 60, 32, 74, 93, 54, 98, 75, 49, 73, 104]
@@ -14,26 +14,26 @@
 # print(statistics.mode(score))
 # print(statistics.stdev(score))
 
-
+# =====================================================================
 
 # from math import *
 # from math import pi as PI
 # print(PI)
 
-
+# =====================================================================
 
 
 # for i in dir(math):
 #     print(i)
 
 
-
+# =====================================================================
 
 # import random
 # print(random.randint(1,5))
 
 
-
+# =====================================================================
 
 
 # write a function which generated a random 6 digits characters for user unique id 
@@ -53,6 +53,9 @@
 # age = [22, 31, 10, 7, 32, 21, 18, 15, 19]
 # print(random.choice(age))
 
+
+
+# =====================================================================
 
 # Modify the previous task. Declare a function named user_id_gen_by_user.
 #  It doesn’t take any parameters but it takes two inputs using input().
@@ -74,7 +77,11 @@
 # user_id_gen_by_user()
 
 
+
+# =====================================================================
+
 # Write a function named rgb_color_gen. It will generate rgb colors (3 values ranging from 0 to 255 each).
+
 # import random
 # def rgb_color_gen():
 #     red_value = random.randint(0,255)
@@ -90,7 +97,7 @@
 # import random
 # values = map(str, [random.randint() for _ in range(3)])
 
-
+# =====================================================================
 # Write a function list_of_rgb_colors which returns any number of RGB colors in an array.
 import random
 
@@ -101,7 +108,7 @@ import random
 
 # list_of_rgb_colors()
 
-
+# =====================================================================
 import random
 arr = [231, 22, 23, 83, 120, 111, 243, 23, 93, 110, 83, 93, 98, 105]
 def list_of_rgb_colors():
@@ -111,6 +118,4 @@ def list_of_rgb_colors():
     print(f'{red_value}, {green_value}, {blue_value}')
 
     
-
-
 list_of_rgb_colors()
