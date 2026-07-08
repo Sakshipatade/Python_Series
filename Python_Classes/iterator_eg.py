@@ -17,8 +17,3 @@ class Sentence:
 my_sentence = Sentence('how are you?')
 new = iter(my_sentence)
 
-
-
-
-
-
