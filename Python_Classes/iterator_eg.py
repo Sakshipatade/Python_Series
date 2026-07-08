@@ -18,21 +18,4 @@
 # new = iter(my_sentence)
 
 
-# class RangeExample:
-#     def __init__(self, start, end):
-#         self.start = start
-#         self.end = end
-    
-#     def __iter__(self):
-#         return self
-    
-#     def __next__(self):
-#         if self.start < self.end:
-            
-        
-    
-# re = RangeExample(1, 10)
-# print(next(re))
-# print(next(re))
-
 
