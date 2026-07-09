@@ -51,38 +51,38 @@ Observe how it changes for all accounts.
 '''
 
 
-# class BankAccount:
+class BankAccount:
 
-#     bank_name = 'Bank of India'
+    bank_name = 'Bank of India'
 
-#     def __init__(self, account_holder, balance):
-#         self.account_holder = account_holder
-#         self.balance = balance
+    def __init__(self, account_holder, balance):
+        self.account_holder = account_holder
+        self.balance = balance
 
-#     @classmethod
-#     def changeBankName(cls, bank_name):
-#         cls.bank_name = bank_name
+    @classmethod
+    def changeBankName(cls, bank_name):
+        cls.bank_name = bank_name
 
-#     def accountInfo(self):
-#         print(f'Account Holder : {self.account_holder}\n Balance : {self.balance}\n Bank : {self.bank_name}')
+    def accountInfo(self):
+        print(f'Account Holder : {self.account_holder}\n Balance : {self.balance}\n Bank : {self.bank_name}')
 
 
 
-# holder1 = BankAccount('Patrick', 100000)
-# holder2 = BankAccount('Sandy', 90000)
-# holder3 = BankAccount('Joy',95000)
+holder1 = BankAccount('Patrick', 100000)
+holder2 = BankAccount('Sandy', 90000)
+holder3 = BankAccount('Joy',95000)
 
-# holder1.accountInfo()
-# holder1.changeBankName('Bank of Maharashtra')
-# holder1.accountInfo()
+holder1.accountInfo()
+holder1.changeBankName('Bank of Maharashtra')
+holder1.accountInfo()
 
-# holder2.accountInfo()
-# holder2.changeBankName('HDFC Bank')
-# holder2.accountInfo()
+holder2.accountInfo()
+holder2.changeBankName('HDFC Bank')
+holder2.accountInfo()
 
-# holder3.accountInfo()
-# holder3.changeBankName('State Bank of India')
-# holder3.accountInfo()
+holder3.accountInfo()
+holder3.changeBankName('State Bank of India')
+holder3.accountInfo()
 
 
 '''
@@ -116,3 +116,33 @@ c5 = Car()
 c6 = Car()
 
 print(Car.carCount())
+
+
+
+'''
+Alternative Constructor
+'''
+
+
+class Employee:
+    company = 'OpenAI'
+
+    def __init__(self, name, salary, department):
+        self.name = name
+        self.salary = salary
+        self.department = department
+        
+
+    @classmethod
+    def fromString(cls, string):
+     result = string.split("-")
+     return cls(result[0], result[1], result[2])
+    
+    def display(self):
+        return f'Name : {self.name}\n Salary : {int(self.salary)}\n Department : {self.department}\n Company : {self.company}'
+    
+
+# emp = Employee('Sakshi', 90000, 'AI' ) 
+emp = Employee.fromString('Vaishu-90000-IT')
+print(emp.display())
+
