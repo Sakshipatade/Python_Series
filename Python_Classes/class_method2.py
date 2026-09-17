@@ -20,3 +20,21 @@ class Book:
 
 book = Book.from_string('Atomic Habits-James Clear-499')
 print(book.displayBook())
+
+
+# Difference between the static method and class method
+class Emp:
+
+    @staticmethod
+    def sayHello():
+        print('Hiii')
+        # Hiii
+    
+
+    @classmethod
+    def sayHii(cls):
+        print(cls)
+        # <class '__main__.Emp'>
+
+Emp.sayHello()
+Emp.sayHii()
